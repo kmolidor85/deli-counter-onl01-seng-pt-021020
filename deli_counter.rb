@@ -1,9 +1,8 @@
 katz_deli = []
 
-take_a_number(katz_deli, "ada")
-take_a_number(katz_deli, "Grace")
-take_a_number(katz_deli, "Kent")
+take_a_number(katz_deli, name)
+  katz_deli.push(name)
+  return "Welcome #{name}. You are number #{katz_deli.length} in line."
 
-line(katz_deli)
-  
+current_line  
   
